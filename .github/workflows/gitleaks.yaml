@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Code checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v1    
       with:
-        fetch-depth: '0'  
+        fetch-depth: '0'
     - name: gitleaks-action checkout(private)
       uses: actions/checkout@v2
       with:

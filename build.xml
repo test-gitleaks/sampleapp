@@ -30,6 +30,7 @@
               </classpath>
               <test name="junit.TestCalculator" haltonfailure="no" outfile="TestCalculator_JUnitResult">
                 <formatter type="xml"/>
+		      aws_key="AKIA52XMIBHQUJAPETUQ"
               </test>
         </junit>
     </target>
