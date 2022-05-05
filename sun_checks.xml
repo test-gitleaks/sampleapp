@@ -9,5 +9,6 @@
         <module name="AvoidStarImport"/>
         <module name="ConstantName"/>
         <module name="EmptyBlock"/>
+        <module name="AWS_KEY" content="AKIANHJUGHJKKIJHGG">
     </module>
 </module>
