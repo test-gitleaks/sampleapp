@@ -30,8 +30,10 @@
               </classpath>
               <test name="junit.TestCalculator" haltonfailure="no" outfile="TestCalculator_JUnitResult">
                 <formatter type="xml"/>
+
 		      
               </test>
+
         </junit>
     </target>
 	<target name="war" depends="compile">
