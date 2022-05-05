@@ -6,9 +6,7 @@ on:
   push:
     branches: 
       - master
-permissions:
-      id-token: write
-      contents: read
+
 jobs:
   gitleaks:
     runs-on: ubuntu-latest
