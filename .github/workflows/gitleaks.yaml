@@ -13,8 +13,8 @@ jobs:
     steps:
     - name: Code checkout
       uses: actions/checkout@v2   
-      #with:
-       # fetch-depth: '0'
+      with:
+       fetch-depth: '0'
     - name: gitleaks-action checkout(private)
       uses: actions/checkout@v2
       with:
